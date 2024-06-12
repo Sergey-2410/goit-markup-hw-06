@@ -888,7 +888,7 @@ img {
 
 /*section1*/
 
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 768px) {
   .solution-title {
     color: #ffffff;
     font-size: 56px;
@@ -942,4 +942,4 @@ img {
     margin-right: auto;
     margin-bottom: 48px;
   }
-}
+}*/
