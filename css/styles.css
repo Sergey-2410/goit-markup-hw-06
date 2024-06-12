@@ -274,6 +274,7 @@ img {
   color: #2e2f42;
 }
 .features-content {
+  /*font-weight: 400;*/
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -387,17 +388,10 @@ img {
   color: #2e2f42;
   margin-bottom: 72px;
 }
-.portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px 48px;
-  /*gap: 24px;
-  row-gap: 48px;*/
-}
+
 .portfolio-item {
   /*width: calc((1128px - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
-  width: 100%;
 }
 .image-portfolio {
   position: relative;
@@ -767,7 +761,7 @@ img {
 /*Section2*/
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 736px;
+    width: 768px;
     padding: 0 16px;
     margin: 0 auto;
   }
@@ -791,7 +785,7 @@ img {
 
 @media screen and (min-width: 1158px) {
   .container {
-    max-width: 1158px;
+    width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
   }
@@ -828,7 +822,8 @@ img {
 /*section3*/
 @media screen and (min-width: 768px) {
   .team-container {
-    width: 712px;
+    width: 768px;
+    padding: 96px 108px;
   }
   .team-list {
     display: flex;
@@ -853,7 +848,7 @@ img {
 /*section4*/
 @media screen and (min-width: 768px) {
   .container {
-    width: 736px;
+    width: 768px;
     padding: 0 16px;
     margin: 0 auto;
   }
@@ -863,27 +858,30 @@ img {
     gap: 24px;
   }
   .portfolio-item {
-    width: 288px;
-    width: calc((100% - 24px) / 2);
+    width: calc((100% - 72px) / 2);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 @media screen and (min-width: 1158px) {
+  .portfolio-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   .container {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
   }
-}
-.portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  row-gap: 48px;
-}
-.portfolio-item {
-  width: calc((100% - 48px) / 3);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+  }
+  .portfolio-item {
+    width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 /*section1*/
