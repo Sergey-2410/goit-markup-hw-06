@@ -479,6 +479,7 @@ img {
   display: inline-block;
 }
 .text-footer {
+  font-weight: 400;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
@@ -496,7 +497,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /*width: 288px;*/
   max-width: 288px;
   margin-bottom: 72px;
 }
@@ -1020,6 +1020,8 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    max-width: 264px;
+    margin-right: 24px;
   }
   .media {
     display: flex;
