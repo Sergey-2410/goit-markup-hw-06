@@ -1150,9 +1150,12 @@ img {
     display: flex;
     flex-wrap: wrap;
     width: 768px;
-    padding: 0 108px;
+    /*padding: 0 108px;*/
     /*gap: 72px 24px;*/
     justify-content: flex-start;
+  }
+  .footer {
+    padding: 96px 108px;
   }
   .footer-logo {
     display: flex;
