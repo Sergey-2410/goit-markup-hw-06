@@ -152,7 +152,7 @@ img {
   background-color: #fff;
   position: fixed;
   top: 0;
-  visibility: hidden;
+  /*visibility: hidden;*/
   opacity: 0;
   pointer-events: none;
   padding-top: 24px;
