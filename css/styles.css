@@ -120,6 +120,8 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -1049,6 +1051,10 @@ img {
     padding: 0 15px;
     margin: 0 auto;
   }
+  .features-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   .features-list {
     display: flex;
     gap: 24px;
@@ -1098,11 +1104,20 @@ img {
     padding: 0 15px;
     margin: 0 auto;
   }
-
+  .section-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   .team-list {
     display: flex;
     gap: 24px;
     justify-content: center;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+  .team-card {
   }
 }
 /*section4*/
@@ -1146,8 +1161,8 @@ img {
 /*footer*/
 
 @media screen and (min-width: 768px) {
-  .footer {
-    padding: 96px 108px;
+  .container-media {
+    max-width: 584px;
   }
   .footer-logo {
     display: flex;
@@ -1242,6 +1257,13 @@ img {
   }
   .contacts-list {
     display: block;
+  }
+  .contact-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #434455;
   }
   .webstudio {
     margin-right: 120px;
