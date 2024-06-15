@@ -1205,8 +1205,8 @@ img {
   }
 }
 @media screen and (min-width: 1158px) {
-  .container {
-    width: 1158px;
+  .container-media {
+    max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
   }
